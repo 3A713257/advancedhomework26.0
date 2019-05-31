@@ -1,0 +1,13 @@
+// advanced homework 26 (3A713257)
+#include <stdio.h>
+#include<conio.h>
+
+int main(void){
+	int k;
+	printf("All possible outcomes:\n");
+	for (k=0;k<10000;k++)
+	if (k%3==2 && k%7==2 && k%11==2)
+	printf("%d\n",k);
+	getch();
+	return 0;
+}
